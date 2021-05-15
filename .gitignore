@@ -1,16 +1,25 @@
-# No excel #
-*.xls
-*.xlsx
+# mark down files #
+HELP.md
 
-# No images #
-*.jpeg
-*.jpg
-*.png
-*.bmp
+# binary files #
+target/
 
-# No .orig file #
-*.orig
+# maven files #
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# No .metadata file #
-.metadata 
+# property files #
+src/**/application.properties
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
 .settings
+.springBeans
+.sts4-cache
+
+### VS Code ###
+.vscode/
